@@ -1,21 +1,3 @@
-// Crie uma classe chamada Personagem com:
-// - nome
-// - idade
-
-//
-// A classe deve ter um método atacar() que exibe:
-// "{tipo} atacou usando {ataque}"
-//
-// O ataque muda conforme o tipo:
-// mago -> usou magia
-// guerreiro -> usou espada
-// monge -> usou artes marciais
-// ninja -> usou shuriken
-//
-// Exemplo de saída:
-// mago atacou usando magia
-// guerreiro atacou usando espada
-
 /* - tipo (mago, guerreiro, monge ou ninja) */
 class Personagem {
   constructor(nome, idade, tipo) {
